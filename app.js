@@ -15,10 +15,17 @@ const quotes = [
     ['Tarih yazmak korkaklara göre bir iş değildir.','Fatih Sultan Mehmet'],
     ['Benim kudretimin ulaştığı yere onların hayalleri bile ulaşamaz.','Fatih Sultan Mehmet'],
     ['Hakiki sanat muhteşem bir şehir vücuda getirmek ve halkının kalbini saadetler doldurmaktır.','Fatih Sultan Mehmet'],
+    ['Batur çok iyi bir varlıktır, kıskanın.', 'Oğuz Batur Sarıöz'],
+    ['Buse olabilecek en tatlı kuzudur.', 'Oğuz Batur Sarıöz']
 ];
 const author = document.getElementById('author-container');
 const quoteText = document.getElementById('quote');
 
+for (let index = 0; index < quotes.length; index++) {
+    let randomNum = Math.floor(Math.random() * quotes.length);
+    quoteText.textContent = quotes[randomNum][0];
+    author.textContent = quotes[randomNum][1];
+}
 
 
 btn.addEventListener('click', () => {
