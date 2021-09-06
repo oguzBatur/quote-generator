@@ -15,8 +15,16 @@ const quotes = [
     ['Tarih yazmak korkaklara göre bir iş değildir.','Fatih Sultan Mehmet'],
     ['Benim kudretimin ulaştığı yere onların hayalleri bile ulaşamaz.','Fatih Sultan Mehmet'],
     ['Hakiki sanat muhteşem bir şehir vücuda getirmek ve halkının kalbini saadetler doldurmaktır.','Fatih Sultan Mehmet'],
-    ['Batur çok iyi bir varlıktır, kıskanın.', 'Oğuz Batur Sarıöz'],
-    ['Buse olabilecek en tatlı kuzudur.', 'Oğuz Batur Sarıöz']
+    ['Muhtaç olduğun kudret; damarlarındaki asil kanda mevcuttur', 'Mustafa Kemal Atatürk'],
+    ['Size öyle bir vatan aldım ki; ebediyen sizin olacaktır.', 'Alpaslan'],
+    ['Ben sadece asil bir ailenin evladı olmakla değil, fakat asil bir milletin evladı olmakla gururluyum.', 'Attila Han'],
+    ['Ey konstantiniye, ya sen beni alırsın, ya ben seni alırım.', 'Fatih Sultan Mehmet'],
+    ['Devletleri yıkan tüm hatanın altında, nice gururun gafleti yatar.', 'Yavuz Sultan Selim'],
+    ['Cesaret insanı zafere, kararsızlık tehlikeye, korkaklık ise ölüme götürür.', 'Yavuz Sultan Selim'],
+    ['Yenileceğinden korkan, daima yenilir.', 'Yıldırım Bayezid'],
+    ['Adaletin en kötüsü geç tecelli edenidir. Sonunda hüküm isabetli olsa da, geciken adalet zulümdür.', 'Orhan Gazi'],
+    ['Türk çocuğu ecdadını tanıdıkça, daha büyük işIer yapmak için kendinde kuvvet buIacaktır.', 'Atatürk']
+    
 ];
 const author = document.getElementById('author-container');
 const quoteText = document.getElementById('quote');
